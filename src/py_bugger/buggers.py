@@ -159,3 +159,4 @@ def _get_random_node(py_files, node_type):
     else:
         # All nodes have already been modified to introduce a previous bug.
         return False, False
+
