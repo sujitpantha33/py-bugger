@@ -134,3 +134,4 @@ def _remove_modified_lines(path, linenums_lines):
             linenums_lines = [(line_num, line) for line_num, line in linenums_lines if line_num != modification.line_num]
 
     return linenums_lines
+    
